@@ -1,7 +1,7 @@
 # computer-vision homework 1
 
 Prepare env with conda
-1. Install conda or minicinda
+1. Install conda or miniconda
 2. Execute commnads:
 
     `conda env create -f env-file.yml`
