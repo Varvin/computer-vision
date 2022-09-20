@@ -1,0 +1,12 @@
+name: hw1
+channels:
+  - conda-forge
+dependencies:
+    - python=3.8
+    - pip>=19.0
+    - jupyter
+    - matplotlib
+    - ipykernel
+    - numpy
+    - opencv
+        
