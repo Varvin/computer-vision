@@ -46,7 +46,8 @@ Tracking by every 7 frame
 
 * Do you see any differences? If so, what are they?
 
-
+    All trackers work fine when tracking per frame. When tracking for every 3 or 7 frames, some of the object is being tracked or the tracking accuracy is falling.
 
 * Does one tracker perform better than the other? In what way?
 
+    The MIL tracker worked best of all, but it does not change the size bounding box, the CSRT tracker also copes well, but when tracking a fast moving object, it points to false places, the KCF tracker loses the object during non-frame-by-frame processing and after that it cannot find the object
